@@ -1,7 +1,4 @@
 
-### `.github/workflows/update-stats.yml`
-
-```yaml
 name: Update GitHub Stats
 
 on:
