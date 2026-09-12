@@ -1,0 +1,99 @@
+<svg width="1000" height="100" viewBox="0 0 1000 100"
+     xmlns="http://www.w3.org/2000/svg">
+
+  <defs>
+    <linearGradient id="bg" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0%" stop-color="#120b20"/>
+      <stop offset="100%" stop-color="#08050c"/>
+    </linearGradient>
+
+    <linearGradient id="shine" x1="0" y1="0" x2="1" y2="0">
+      <stop offset="0%" stop-color="#702fff"/>
+      <stop offset="50%" stop-color="#ffffff"/>
+      <stop offset="100%" stop-color="#702fff"/>
+    </linearGradient>
+
+    <filter id="glow" x="-50%" y="-100%" width="200%" height="300%">
+      <feGaussianBlur stdDeviation="4" result="blur"/>
+      <feMerge>
+        <feMergeNode in="blur"/>
+        <feMergeNode in="SourceGraphic"/>
+      </feMerge>
+    </filter>
+
+    <clipPath id="avatarClip">
+      <circle cx="900" cy="50" r="34"/>
+    </clipPath>
+  </defs>
+
+  <!-- Fondo -->
+  <rect x="5" y="5" width="990" height="90"
+        rx="18"
+        fill="url(#bg)"
+        stroke="#1c0d40"
+        stroke-width="2"/>
+
+  <!-- HOLA, SOY -->
+  <text x="55" y="59"
+        font-family="Arial, sans-serif"
+        font-size="32"
+        font-weight="900"
+        fill="#ffffff">
+     HOLA, SOY
+  </text>
+
+  <!-- DEKEISER -->
+  <text x="270" y="59"
+        font-family="Arial, sans-serif"
+        font-size="36"
+        font-weight="900"
+        fill="#702fff">
+    DEKEISER
+
+    <animate
+      attributeName="fill"
+      values="#702fff;#702fff;#ffffff;#702fff;#702fff"
+      keyTimes="0;0.35;0.50;0.65;1"
+      dur="9s"
+      repeatCount="indefinite"/>
+  </text>
+
+  <!-- Brillo que recorre DEKEISER -->
+  <text x="270" y="59"
+        font-family="Arial, sans-serif"
+        font-size="36"
+        font-weight="900"
+        fill="url(#shine)"
+        opacity="0"
+        filter="url(#glow)">
+    
+    DEKEISER
+
+    <animate
+      attributeName="opacity"
+      values="0;0;0.9;0;0"
+      keyTimes="0;0.40;0.50;0.60;1"
+      dur="9s"
+      repeatCount="indefinite"/>
+  </text>
+
+  <!-- Avatar de GitHub -->
+  <circle cx="900" cy="50" r="38"
+          fill="#1c0d40"/>
+
+  <image
+    href="./DEKEicon.png"
+    x="866"
+    y="18"
+    width="64"
+    height="64"
+    preserveAspectRatio="xMidYMid slice"/>
+
+  <!-- Borde del avatar -->
+  <circle cx="900" cy="50" r="36"
+          fill="none"
+          stroke="#702fff"
+          stroke-width="2"
+          opacity="0.8"/>
+
+</svg>

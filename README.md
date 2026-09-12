@@ -1,6 +1,17 @@
-# 👋 Hola, soy Dekeiser
+<p align="center">
+  <img src="./header.svg" width="100%" alt="Hola, soy Dekeiser">
+</p>
+<p align="center">
+  <img src="./roles.svg" width="100%" alt="Programador, artista digital, modelador 3D y animador">
+</p>
+<p align="center">
+  <img src="./led_line.svg" width="100%" alt="LED divider">
+</p>
 
-> 🎮 Programador · 🎨 Artista digital · 🧊 Modelador 3D · 🎬 Animador
+[![GitHub Contributions](https://gh-heat.anishroy.com/api/DEkeiser-Dev/svg?colors=000000,1c0d40,351580,5122bf,702fff&darkMode=true&bg=000000&radius=4&borderWidth=1&borderColor=1c0d40)](https://github.com/DEkeiser-Dev)
+
+[![YouTube](https://img.shields.io/badge/YouTube-702FFF?style=for-the-badge&logo=youtube&logoColor=white)](https://www.youtube.com/channel/UC9P0w-mYzcRmdUkDf2m0jTg/)
+[![Google Play](https://img.shields.io/badge/Google%20Play-702FFF?style=for-the-badge&logo=googleplay&logoColor=white)](https://play.google.com/store/apps/dev?id=7541824526812591073)
 
 ## 🧑‍💻 Sobre mí
 
@@ -12,38 +23,47 @@ Actualmente estoy trabajando en proyectos personales y aprendiendo constantement
 
 Desarrollo aplicaciones y proyectos para **Android, PC y Linux**.
 
-## 🔗 Mis enlaces
-
-- 🎬 **YouTube:** [Dekeiser](https://www.youtube.com/channel/UC9P0w-mYzcRmdUkDf2m0jTg/)
-- 📱 **Google Play:** [Mis aplicaciones](https://play.google.com/store/apps/dev?id=7541824526812591073)
+<p align="center">
+  <img src="./led_line.svg" width="100%" alt="LED divider">
+</p>
 
 ## 🛠️ Tecnologías y herramientas
 
-### 💻 Programación
+<h2>💻 Programación</h2>
 
-![GDScript](https://img.shields.io/badge/GDScript-478CBF?style=for-the-badge&logo=godot-engine&logoColor=white)
-![C](https://img.shields.io/badge/C-A8B9CC?style=for-the-badge&logo=c&logoColor=black)
-![C++](https://img.shields.io/badge/C++-00599C?style=for-the-badge&logo=cplusplus&logoColor=white)
-![Python](https://img.shields.io/badge/Python-3776AB?style=for-the-badge&logo=python&logoColor=white)
+<p align="left">
+  <a href="https://skillicons.dev">
+    <img src="https://skillicons.dev/icons?i=godot,c,cpp,python&perline=12" />
+  </a>
+</p>
 
-### 🎮 Desarrollo
+<h2>🎮 Desarrollo</h2>
 
-![Godot](https://img.shields.io/badge/Godot-478CBF?style=for-the-badge&logo=godot-engine&logoColor=white)
-![Android](https://img.shields.io/badge/Android-3DDC84?style=for-the-badge&logo=android&logoColor=white)
-![Linux](https://img.shields.io/badge/Linux-FCC624?style=for-the-badge&logo=linux&logoColor=black)
-![PC](https://img.shields.io/badge/PC-0078D6?style=for-the-badge&logo=windows&logoColor=white)
+<p align="left">
+  <a href="https://skillicons.dev">
+    <img src="https://skillicons.dev/icons?i=godot,androidstudio,linux,windows,vscode&perline=12" />
+  </a>
+</p>
 
-### 🎨 Arte y 3D
+<h2>🎨 Arte y 3D</h2>
 
-![Blender](https://img.shields.io/badge/Blender-E87D0D?style=for-the-badge&logo=blender&logoColor=white)
-![Krita](https://img.shields.io/badge/Krita-3BABFF?style=for-the-badge&logo=krita&logoColor=white)
+<p align="left">
+  <a href="https://skillicons.dev">
+    <img src="https://skillicons.dev/icons?i=blender&perline=12" />
+  </a>
+  <img src="https://images.seeklogo.com/logo-png/51/2/krita-logo-png_seeklogo-510258.png" width="48" height="48" alt="Krita" />
+</p>
+
+<p align="center">
+  <img src="./led_line.svg" width="100%" alt="LED divider">
+</p>
 
 ## 📊 GitHub Stats
 
+[![GitHub Streak](https://github-readme-streak-stats.herokuapp.com?user=DEkeiser-Dev&theme=dark&hide_border=true&ring=702FFF&fire=702FFF&currStreakLabel=702FFF&sideLabels=702FFF&dates=702FFF)](https://git.io/streak-stats)
+
 <p align="center">
-  <img src="./stats/repositories.svg" width="32%" />
-  <img src="./stats/contributions.svg" width="32%" />
-  <img src="./stats/activity.svg" width="32%" />
+  <img src="./led_line.svg" width="100%" alt="LED divider">
 </p>
 
 ## 🚀 Proyectos destacados
@@ -61,6 +81,10 @@ Aplicación para medir la velocidad de clics por segundo (CPS), desarrollada con
 🔗 [Ver proyecto en GitHub](https://github.com/DEkeiser-Dev/Click_Speed)
 
 ---
+
+<p align="center">
+  <img src="./led_line.svg" width="100%" alt="LED divider">
+</p>
 
 ### 💜 Gracias por visitar mi perfil
 

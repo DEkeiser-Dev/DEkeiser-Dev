@@ -1,0 +1,100 @@
+<svg width="1000" height="90" viewBox="0 0 1000 90"
+     xmlns="http://www.w3.org/2000/svg">
+
+  <defs>
+    <linearGradient id="bg" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0%" stop-color="#120b20"/>
+      <stop offset="100%" stop-color="#09060d"/>
+    </linearGradient>
+
+    <linearGradient id="border" x1="0" y1="0" x2="1" y2="0">
+      <stop offset="0%" stop-color="#1c0d40"/>
+      <stop offset="50%" stop-color="#702fff"/>
+      <stop offset="100%" stop-color="#1c0d40"/>
+    </linearGradient>
+
+    <filter id="glow">
+      <feGaussianBlur stdDeviation="3" result="blur"/>
+      <feMerge>
+        <feMergeNode in="blur"/>
+        <feMergeNode in="SourceGraphic"/>
+      </feMerge>
+    </filter>
+  </defs>
+
+  <!-- Fondo -->
+  <rect x="8" y="8" width="984" height="74"
+        rx="16"
+        fill="url(#bg)"
+        stroke="url(#border)"
+        stroke-width="2"/>
+
+  <!-- Brillo exterior -->
+  <rect x="8" y="8" width="984" height="74"
+        rx="16"
+        fill="none"
+        stroke="#702fff"
+        stroke-width="2"
+        opacity="0.25"
+        filter="url(#glow)"/>
+
+  <!-- Texto -->
+  <g
+    text-anchor="middle"
+    dominant-baseline="middle"
+    font-family="Arial, sans-serif"
+    font-size="22"
+    font-weight="600">
+
+    <text x="130" y="45" fill="#b88cff">
+      🎮 Programador
+      <animate attributeName="fill"
+        values="#b88cff;#ffffff;#702fff;#b88cff"
+        dur="4s"
+        begin="0s"
+        repeatCount="indefinite"/>
+    </text>
+
+    <text x="375" y="45" fill="#b88cff">
+      🎨 Artista digital
+      <animate attributeName="fill"
+        values="#b88cff;#ffffff;#702fff;#b88cff"
+        dur="4s"
+        begin="1s"
+        repeatCount="indefinite"/>
+    </text>
+
+    <text x="625" y="45" fill="#b88cff">
+      🧊 Modelador 3D
+      <animate attributeName="fill"
+        values="#b88cff;#ffffff;#702fff;#b88cff"
+        dur="4s"
+        begin="2s"
+        repeatCount="indefinite"/>
+    </text>
+
+    <text x="865" y="45" fill="#b88cff">
+      🎬 Animador
+      <animate attributeName="fill"
+        values="#b88cff;#ffffff;#702fff;#b88cff"
+        dur="4s"
+        begin="3s"
+        repeatCount="indefinite"/>
+    </text>
+
+  </g>
+
+  <!-- Línea de brillo que recorre el panel -->
+  <rect x="-150" y="78" width="150" height="2"
+        rx="1"
+        fill="#702fff"
+        opacity="0.8"
+        filter="url(#glow)">
+    <animate
+      attributeName="x"
+      values="-150;1000;-150"
+      dur="4s"
+      repeatCount="indefinite"/>
+  </rect>
+
+</svg>
